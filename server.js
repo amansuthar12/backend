@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import http from "http";
-import { connectDB } from "./config/db.js";
+import { connectDB } from "./db.js";
 import { syncDB } from "./models/index.js";
 import { initSocket } from "./realtime/socket.js";
 

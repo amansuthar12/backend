@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize";
-import { sequelize } from "../config/db.js";
+import { sequelize } from "../db.js";
 
 const Driver = sequelize.define("Driver", {
     name: DataTypes.STRING,
